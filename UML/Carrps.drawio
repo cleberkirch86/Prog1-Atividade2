@@ -1,42 +1,43 @@
 <mxfile>
   <diagram name="Classe Carros">
-    <mxGraphModel dx="2000" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- Classe -->
-        <mxCell id="2" value="Carros" style="swimlane;fontStyle=1;childLayout=stackLayout;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="200" height="220" as="geometry" />
+        <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="200" height="200" as="geometry" />
         </mxCell>
-        <!-- Atributos -->
-        <mxCell id="3" value="Atributos" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="40" width="200" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="String marca" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="60" width="200" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="public String modelo" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="80" width="200" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="public int ano" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="100" width="200" height="20" as="geometry" />
+        <!-- Nome da Classe -->
+        <mxCell id="3" value="Carros" style="text;align=center;fontStyle=1;" vertex="1" parent="2">
+          <mxGeometry width="200" height="40" as="geometry" />
         </mxCell>
         <!-- Linha separadora -->
-        <mxCell id="separator" style="line;strokeColor=#000000;" edge="1" parent="2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4" style="line;strokeColor=#000000;" edge="1" parent="2">
+          <mxGeometry y="40" width="200" height="2" as="geometry" />
+        </mxCell>
+        <!-- Atributos -->
+        <mxCell id="5" value="String marca" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="42" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="public String modelo" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="62" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="public int ano" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="82" width="200" height="20" as="geometry" />
+        </mxCell>
+        <!-- Outra linha separadora -->
+        <mxCell id="8" style="line;strokeColor=#000000;" edge="1" parent="2">
+          <mxGeometry y="100" width="200" height="2" as="geometry" />
         </mxCell>
         <!-- Métodos -->
-        <mxCell id="7" value="Métodos" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="120" width="200" height="20" as="geometry" />
+        <mxCell id="9" value="public void ligar()" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="102" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="public void ligar()" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="140" width="200" height="20" as="geometry" />
+        <mxCell id="10" value="public void acelerar()" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="122" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="public void acelerar()" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="160" width="200" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="public void frear()" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="180" width="200" height="20" as="geometry" />
+        <mxCell id="11" value="public void frear()" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="142" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
