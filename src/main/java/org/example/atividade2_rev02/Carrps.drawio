@@ -4,29 +4,34 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Carros" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="160" height="180" as="geometry" />
+        <mxCell id="2" value="Carros" style="swimlane;fontStyle=1;childLayout=stackLayout;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="String marca" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        <!-- Atributos -->
+        <mxCell id="3" value="Atributos" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="40" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="public String modelo" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        <mxCell id="4" value="String marca" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="60" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="public int ano" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="80" width="160" height="20" as="geometry" />
+        <mxCell id="5" value="public String modelo" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="80" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="métodos" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="100" width="160" height="20" as="geometry" />
+        <mxCell id="6" value="public int ano" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="100" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="public void ligar()" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="120" width="160" height="20" as="geometry" />
+        <!-- Métodos -->
+        <mxCell id="7" value="Métodos" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="120" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="public void acelerar()" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="140" width="160" height="20" as="geometry" />
+        <mxCell id="8" value="public void ligar()" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="140" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="public void frear()" style="text;html=1;" vertex="1" parent="2">
-          <mxGeometry y="160" width="160" height="20" as="geometry" />
+        <mxCell id="9" value="public void acelerar()" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="160" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="public void frear()" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="180" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

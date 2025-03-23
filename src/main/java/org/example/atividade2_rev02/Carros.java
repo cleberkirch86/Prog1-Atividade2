@@ -1,0 +1,30 @@
+package org.example.atividade2_rev02;
+
+public class Carros {
+    String marca;
+    public String modelo;
+    public int ano;
+
+    public void ligar() {
+        System.out.println("O carro " + modelo + " está ligado!");
+    }
+
+    public void acelerar() {
+        System.out.println("O carro " + modelo + " está acelerando!");
+    }
+
+    public void frear() {
+        System.out.println("O carro " + modelo + " está freando!");
+    }
+
+    public static void main(String[] args) {
+        Carros carro = new Carros();
+        carro.modelo = "Fusca";
+        carro.ano = 1970;
+        carro.marca = "Volkswagen";
+
+        carro.ligar();
+        carro.acelerar();
+        carro.frear();
+    }
+}
