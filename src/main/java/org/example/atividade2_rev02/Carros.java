@@ -5,6 +5,20 @@ public class Carros {
     public String modelo;
     public int ano;
 
+    // Construtor padrão
+    public Carros() {
+        // Não inicializa os atributos (valores padrão)
+    }
+
+
+    // Construtor que inicializa todos os atributos
+    public Carros(String marca, String modelo, int ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+
     public void ligar() {
         System.out.println("O carro " + modelo + " está ligado!");
     }
