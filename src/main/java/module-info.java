@@ -10,6 +10,8 @@ module org.example.atividade2_rev02 {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
+    requires javafx.media;
 
     opens org.example.atividade2_rev02 to javafx.fxml;
     exports org.example.atividade2_rev02;

@@ -2,14 +2,30 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.example.atividade2_rev02.CarroController">
-    <TextField fx:id="modeloField" promptText="Digite o modelo do carro"/>
-    <TextField fx:id="anoField" promptText="Digite o ano do carro"/>
-    <Button fx:id="ligarButton" text="Ligar" onAction="#ligarCarro"/>
-    <Button fx:id="acelerarButton" text="Acelerar" onAction="#acelerarCarro"/>
-    <Button fx:id="frearButton" text="Frear" onAction="#frearCarro"/>
+<VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="350.0" spacing="15" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.atividade2_rev02.CarroController" style="-fx-background-color: #eaf2f8; -fx-border-color: #3498db; -fx-border-width: 2px; -fx-border-radius: 10px;">
+    <!-- Botão de fechar -->
+    <Button onAction="#fechar" text="X" style="-fx-background-color: red; -fx-text-fill: white; -fx-font-weight: bold; -fx-border-radius: 5px;" />
+
+    <!-- Título -->
+    <Label text="🚗" style="-fx-font-size: 20px; -fx-text-fill: #2c3e50; -fx-font-weight: bold;" />
+
+    <!-- Campos de entrada -->
+    <TextField fx:id="modeloField" promptText="Digite o modelo do carro" style="-fx-background-color: #ecf0f1; -fx-border-color: #bdc3c7; -fx-border-radius: 5px;" maxWidth="250" prefWidth="200" />
+    <TextField fx:id="anoField" promptText="Digite o ano do carro" style="-fx-background-color: #ecf0f1; -fx-border-color: #bdc3c7; -fx-border-radius: 5px;" maxWidth="250" prefWidth="200" />
+
+    <!-- Botões -->
+    <Button fx:id="ligarButton" text="Ligar" onAction="#ligarCarro" style="-fx-background-color: #2ecc71; -fx-text-fill: white; -fx-font-weight: bold; -fx-border-radius: 5px;" prefWidth="150" />
+    <Button fx:id="acelerarButton" text="Acelerar" onAction="#acelerarCarro" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-weight: bold; -fx-border-radius: 5px;" prefWidth="150" />
+    <Button fx:id="frearButton" text="Frear" onAction="#frearCarro" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-border-radius: 5px;" prefWidth="150" />
+
+    <!-- Mensagem -->
+    <TextField fx:id="mensagemField" editable="false" promptText="Mensagem aparecerá aqui" style="-fx-background-color: #ecf0f1; -fx-border-color: #bdc3c7; -fx-border-radius: 5px;" maxWidth="250" prefWidth="200" />
+
+    <padding>
+        <Insets top="20" bottom="20" left="20" right="20"/>
+    </padding>
 </VBox>

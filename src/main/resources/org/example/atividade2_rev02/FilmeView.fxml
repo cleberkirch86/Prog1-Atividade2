@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="12" alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.atividade2_rev02.FilmeController"
+      style="-fx-background-color: #fef9e7; -fx-border-color: #f5b041; -fx-border-width: 2px; -fx-border-radius: 10px;" prefWidth="360" prefHeight="430">
+
+    <Label text="Cadastro de Filme" style="-fx-font-size: 18px;"/>
+
+    <TextField fx:id="txtTitulo" promptText="Título"/>
+    <TextField fx:id="txtGenero" promptText="Gênero"/>
+    <TextField fx:id="txtDuracao" promptText="Duração (minutos)"/>
+
+    <Button text="Cadastrar Filme" onAction="#cadastrarFilme"/>
+    <Button text="Reproduzir" onAction="#reproduzirFilme"/>
+    <Button text="Pausar" onAction="#pausarFilme"/>
+
+    <TextArea fx:id="txtResultado" editable="false" wrapText="true" prefHeight="180" />
+
+    <padding><Insets top="20" bottom="20" left="20" right="20"/></padding>
+</VBox>
