@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/23.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.atividade2_rev02.AnimalController"
+      style="-fx-background-color: #fef9e7; -fx-border-color: #27ae60; -fx-border-width: 2; -fx-border-radius: 10; -fx-padding: 20;">
+
+    <Label text="Cadastro de Animal" style="-fx-font-size: 18px;"/>
+
+    <TextField fx:id="txtEspecie" promptText="Espécie"/>
+    <TextField fx:id="txtIdade" promptText="Idade"/>
+    <TextField fx:id="txtNome" promptText="Nome"/>
+
+    <HBox spacing="10">
+        <Button text="Cadastrar" onAction="#cadastrarAnimal"/>
+        <Button text="Emitir Som" onAction="#emitirSom"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Button text="Alimentar" onAction="#alimentar"/>
+        <Button text="Mover" onAction="#mover"/>
+    </HBox>
+
+    <TextArea fx:id="txtResultado" prefRowCount="6" editable="false" wrapText="true"/>
+
+</VBox>
+
